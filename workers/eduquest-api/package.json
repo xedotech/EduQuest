@@ -1,0 +1,25 @@
+{
+  "name": "eduquest-api",
+  "version": "1.0.0",
+  "description": "EduQuest API powered by Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "eduquest",
+    "api",
+    "cloudflare",
+    "workers"
+  ],
+  "author": "EduQuest Team",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "itty-router": "^5.0.18"
+  }
+}
