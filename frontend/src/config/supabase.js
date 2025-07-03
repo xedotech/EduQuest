@@ -173,7 +173,7 @@ const createMockSupabaseClient = () => {
 };
 
 // Create Supabase client
-export const supabase = process.env.NODE_ENV === 'production' && supabaseUrl !== 'https://your-project.supabase.co'
+export const supabase = process.env.NODE_ENV === 'production' && supabaseUrl !== 'https://mfmwfbvpbcrhebctoyib.supabase.co'
   ? createClient(supabaseUrl, supabaseAnonKey)
   : createMockSupabaseClient();
 
