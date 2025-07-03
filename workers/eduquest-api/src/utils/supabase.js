@@ -129,8 +129,8 @@ export class SupabaseClient {
 
 export function createSupabaseClient(env) {
   return new SupabaseClient(
-    env.SUPABASE_URL || 'https://your-project.supabase.co',
-    env.SUPABASE_ANON_KEY || 'your-anon-key'
+    env.SUPABASE_URL || 'https://mfmwfbvpbcrhebctoyib.supabase.co',
+    env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1mbXdmYnZwYmNyaGViY3RveWliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1MDQ4OTAsImV4cCI6MjA2NzA4MDg5MH0.px3RYMQTmbqTwLVATTJVAZ0SAbYV_PlbDM3igIs-DYs'
   );
 }
 
