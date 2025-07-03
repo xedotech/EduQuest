@@ -2,8 +2,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Supabase configuration - These will be environment variables in production
-const supabaseUrl = 'https://your-project.supabase.co'; // Replace with actual Supabase URL
-const supabaseAnonKey = 'your-anon-key'; // Replace with actual Supabase anon key
+const supabaseUrl = 'https://mfmwfbvpbcrhebctoyib.supabase.co'; // Replace with actual Supabase URL
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1mbXdmYnZwYmNyaGViY3RveWliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1MDQ4OTAsImV4cCI6MjA2NzA4MDg5MH0.px3RYMQTmbqTwLVATTJVAZ0SAbYV_PlbDM3igIs-DYs'; // Replace with actual Supabase anon key
 
 // For demo purposes, we'll create a mock client that simulates Supabase functionality
 // In production, you would use actual Supabase credentials
@@ -16,7 +16,8 @@ const createMockSupabaseClient = () => {
         return {
           data: {
             user: {
-              id: 'mock-user-id-' + Date.now(),
+              id: 'm
+            -user-id-' + Date.now(),
               email,
               user_metadata: options.data || {}
             },
