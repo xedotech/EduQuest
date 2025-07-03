@@ -1,12 +1,12 @@
-name = "eduquest-api"
+name = "eduquest"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 # Environment variables (set these in Cloudflare dashboard or via wrangler secret)
 [vars]
 ENVIRONMENT = "development"
-SUPABASE_URL = "https://your-project.supabase.co"
-SUPABASE_ANON_KEY = "your-anon-key"
+SUPABASE_URL = "https://mfmwfbvpbcrhebctoyib.supabase.co"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1mbXdmYnZwYmNyaGViY3RveWliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1MDQ4OTAsImV4cCI6MjA2NzA4MDg5MH0.px3RYMQTmbqTwLVATTJVAZ0SAbYV_PlbDM3igIs-DYs"
 
 # KV namespaces for caching (optional)
 # [[kv_namespaces]]
